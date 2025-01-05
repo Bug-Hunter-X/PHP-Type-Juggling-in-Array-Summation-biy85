@@ -1,0 +1,3 @@
+# PHP Type Juggling Bug
+This repository demonstrates a common yet subtle bug in PHP related to type juggling. When summing values in an array, if the array contains a string that can be interpreted as a number, PHP will perform string concatenation instead of numerical addition, leading to incorrect results.
+The `bug.php` file showcases this issue. The `bugSolution.php` file provides a solution using type casting to ensure all array elements are treated as integers before summation.
